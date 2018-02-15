@@ -20,10 +20,10 @@ COPY package.json /usr/src/node-red/
 RUN npm install
 
 # latest dashboard release
-#RUN npm install node-red-dashboard
+RUN npm install node-red/node-red-dashboard
 
 # current dashboard release
-RUN npm install node-red/node-red-dashboard
+#RUN npm install node-red-dashboard
 
 
 
